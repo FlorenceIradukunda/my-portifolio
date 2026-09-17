@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Florence IRADUKUNDA | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio website for a final-year Computer and Software Engineering student." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-bar">
+        <div class="brand">
+          <div class="profile-badge profile-photo">
+            <img src="Profile.jpeg" alt="Florence IRADUKUNDA" />
+          </div>
+          <div>
+            <a href="index.html" class="logo">Florence IRADUKUNDA</a>
+            <p class="nav-subtitle">Computer Engineer</p>
+          </div>
+        </div>
+
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary nav-cta">Hire Me</a>
+        </div>
+
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="hero-tag">Software engineering with real-world impact</span>
+            <h1>Hi, I am Florence IRADUKUNDA, a full-stack developer focused on clear, responsive frontend experiences.</h1>
+            <p>
+              I build thoughtful web and mobile experiences with TypeScript, React Native, Firebase, Python, APIs, and Figma.
+            </p>
+            <div class="hero-actions">
+              <a href="resume.pdf" download class="btn btn-primary btn-icon">Download CV</a>
+              <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <p class="stat-value">2+</p>
+                <p>Months of experience</p>
+              </div>
+              <div class="stat-item">
+                <p class="stat-value">2+</p>
+                <p>Projects delivered</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-image">
+              <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=900&q=80" alt="Portfolio hero" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cv-section">
+        <div class="container cv-card">
+          <div class="cv-copy">
+            <span class="hero-tag">Resume</span>
+            <h2>Download my CV</h2>
+            <p>Explore my internship, training, and project experience in one concise PDF.</p>
+            <div class="hero-actions">
+              <a href="resume.pdf" download class="btn btn-primary btn-icon">Download CV</a>
+              <a href="resume.pdf" target="_blank" class="btn btn-secondary">View CV</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container stats-grid">
+        <div class="stat-card">
+          <h3>Internship</h3>
+          <p>REG : Real industry experience working with software teams.</p>
+        </div>
+        <div class="stat-card">
+          <h3>Training</h3>
+          <p>Solvit Africa : Practical technology training and mentorship.</p>
+        </div>
+        <div class="stat-card">
+          <h3>Graduation</h3>
+          <p>Final year at CST, preparing for a career launch after graduation.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p class="footer-left">📅 <span id="year"></span></p>
+        <div class="footer-right">
+          <p>Florence IRADUKUNDA</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

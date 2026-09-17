@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav-bar">
+        <div class="brand">
+          <div class="profile-badge profile-photo">
+            <img src="Profile.jpeg" alt="Florence IRADUKUNDA" />
+          </div>
+          <div>
+            <a href="index.html" class="logo">Florence IRADUKUNDA</a>
+            <p class="nav-subtitle">Computer Engineer</p>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="skills.html">Skills</a>
+          <a href="projects.html" class="active">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <section class="container">
+        <h1>Featured work</h1>
+        <div class="projects-grid-page">
+          <article class="card project-card">
+            <img src="hostel.png" alt="Hostel Management Application" class="project-image" />
+            <div class="project-copy">
+              <h3>Hostel management application</h3>
+              <p>Built a platform to streamline applications, room assignments, and resident records.</p>
+              <span class="project-stack">React · Firebase · Database</span>
+            </div>
+          </article>
+          <article class="card project-card">
+           <img src="port.png" alt="Portfolio Website" class="project-image" />
+            <div class="project-copy">
+              <h3>Portfolio Website</h3>
+              <p>Designed a polished portfolio to present skills, experience, and training in a strong first impression.</p>
+              <span class="project-stack">HTML · CSS · JavaScript · Figma</span>
+            </div>
+          </article>
+          <article class="card project-card">
+           <img src="prototypes.png" alt="Web App Prototype" class="project-image" />
+            <div class="project-copy">
+              <h3>Web App Prototype</h3>
+              <p>Developed responsive, usability-focused layouts for desktop and mobile projects.</p>
+              <span class="project-stack">Figma · API Design · Frontend</span>
+            </div>
+          </article>
+          <article class="card project-card">
+           <img src="health.png" alt="SafeMind Mental Health Companion"/>
+            <div class="project-copy">
+              <h3>SafeMind Mental Health Companion</h3>
+              <p>A student mental health companion using facial emotion recognition and large language models to provide empathetic support, with a concept diagram showing emotion analysis and support flow.</p>
+              <span class="project-stack">Python · API · React Native</span>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="project-image project-image-placeholder" aria-hidden="true">TrustEdConnect</div>
+            <div class="project-copy">
+              <h3>TrustEdConnect</h3>
+              <p>A parent-to-school communication and student monitoring mobile app for clear updates, attendance, and learner progress.</p>
+              <span class="project-stack">React Native · Firebase · Database · API</span>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="project-image project-image-placeholder" aria-hidden="true">School to Work</div>
+            <div class="project-copy">
+              <h3>School-to-Work Preparation Program</h3>
+              <p>A program platform that helps students prepare for employment through career guidance, practical skills, and connections to workplace opportunities.</p>
+              <span class="project-stack">Frontend · Database · API · Figma</span>
+            </div>
+          </article>
+          <article class="card project-card">
+            <div class="project-image project-image-placeholder" aria-hidden="true">Movie App</div>
+            <div class="project-copy">
+              <h3>Movie App by Florence IRADUKUNDA</h3>
+              <p>A movie discovery app with searchable titles, details, and a simple mobile-first viewing experience.</p>
+              <span class="project-stack">TypeScript · React Native · API</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p class="footer-left">📅 <span id="year"></span></p>
+        <div class="footer-right">
+          <p>Florence IRADUKUNDA</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

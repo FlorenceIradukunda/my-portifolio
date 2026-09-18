@@ -65,4 +65,4 @@ I am actively looking for opportunities to learn, collaborate, and grow as a dev
 GitHub: FlorenceIradukunda
 Email: florenceiradukunda158@gmail.com
 
-⭐ Thank you for visiting my portfolio repository!
+⭐ Thank you for visiting my portfolio repository
